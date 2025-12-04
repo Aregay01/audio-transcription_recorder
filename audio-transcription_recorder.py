@@ -15,8 +15,13 @@ import datetime
 # Scaling - MAIN WINDOW ONLY
 # -------------------------
 # These scales will apply only to the main (root) window UI.
-SCALE_TEXT_MAIN = 2   # multiply text sizes by this in main window
-SCALE_BUTTON_MAIN = 1.5 # multiply button sizes by this in main window
+# SCALE_TEXT_MAIN = 2   # multiply text sizes by this in main window
+# SCALE_BUTTON_MAIN = 1.5 # multiply button sizes by this in main window
+
+# in window 11, the below scalling works well. in linux (specifically ubuntu) comment thos 2 line and uncomment the 2 line above
+SCALE_TEXT_MAIN = 1   
+SCALE_BUTTON_MAIN = 1 
+
 
 # Base sizes for non-main windows and widgets
 LABEL_BASE = 10
